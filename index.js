@@ -24,5 +24,6 @@ app.use('/api', apiRoute)
 app.get('/', (req, res) => res.send("<h1>Hello Learning Matters!!</h1>"))
 app.use(cors())
 
+const PORT = process.env.PORT || 443
 //Open port 3000 and start the server
-app.listen(3000, () => console.log("Server started at port 3000"))
+app.listen(PORT, () => console.log("Server started at port 3000"))

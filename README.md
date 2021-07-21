@@ -71,6 +71,16 @@ Before deploying this app, make sure that you have built a suiable conversationa
 
 ## How the app works:
 
+![](/Media/req-res-flow.jpg)
+
+####
+
+![](/Media/google-actions-webhook.jpg)
+
+####
+
+![](/Media/alexa-endpoint.jpg)
+
 ## Important References:
 
 - [ASK documentation](https://developer.amazon.com/en-US/docs/alexa/ask-overviews/what-is-the-alexa-skills-kit.html)

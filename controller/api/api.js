@@ -18,5 +18,6 @@ export const db = firebase.database()
 const api = (req, res) => {
     return "JSON hehe" + res.data
 }
+
 export default api
 

@@ -72,14 +72,26 @@ Before deploying this app, make sure that you have built a suiable conversationa
 ## How the app works:
 
 ![](/Media/req-res-flow.jpg)
+In this application workflow, the processes starting from the post request is the part that we handle through this Express app.
 
-####
+When the user invokes or converses our Alexa Skill, an HTTPS post request with the payload will be made to our endpoint.
+We need to setup our endpoint as shown below:
 
-![](/Media/google-actions-webhook.jpg)
+### Set Alexa Skills request endpoint
 
 ####
 
 ![](/Media/alexa-endpoint.jpg)
+
+####
+
+### Google Actions webhook endpoint
+
+![](/Media/google-actions-webhook.jpg)
+
+- Once we setup the endpoints, we then process the request JSON payloads from our Alexa Skills and Google Actions, in our express app.
+- The processed data is then sent as the appropriate response payload which is received by the service that sent the request.
+- The sent response is then handled by the respective services
 
 ## Important References:
 

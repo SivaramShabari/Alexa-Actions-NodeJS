@@ -1,6 +1,8 @@
 # Express App to handle requests from Alexa Skills and Google Actions
 
-###### _This is the backend data handler of a protype,which enables learning for children through natural conversations with Alexa and Google Assistant_
+##### _This is the backend data handler of a protype,which enables learning for children through natural conversations with Alexa and Google Assistant_
+
+###### _Refer the documentation references given below to design conversations for Alexa Skills and Google Actions_
 
 ### Initialize project by installing dependencies
 
@@ -20,6 +22,8 @@ Before deploying this app, make sure that you have built a suiable conversationa
 - **Procfile** - Heroku deployement file
 - **package.json** - npm packages and details
 - **.gitignore** - Git ignore instructions.
+- **Dockerfile** - Use this Dockerfile to build this app as a Docker container
+- **index.test.js** - Write test cases for the app inside this file. _Only a sample test case is given as for now._
 
 ## Folders:
 

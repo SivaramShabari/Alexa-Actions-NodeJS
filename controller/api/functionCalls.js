@@ -80,5 +80,4 @@ const validateInput = (slot) => {
         return true
     else
         return false
-
 }

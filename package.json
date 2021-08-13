@@ -4,14 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"type": "module",
-	"scripts": {
-		"build": "vite build",
-		"test": "jest"
-	},
-	"jest": {
-		"transform": {
-			"^.+\\.[t|j]sx?$": "babel-jest"
-		}
+	"scripts":{
 	},
 	"author": "",
 	"license": "ISC",
